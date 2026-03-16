@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "usts",
+	"version": "${version}",
+	"name": "US Traffic Signage",
+	"description": "A vanilla friendly implementation of US Traffic Signage from the MUTCD.",
+	"authors": [
+		"Rick_Al"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Rick-Al",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/usts/ustsicon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rickal.usts.USTrafficSignage"
+		],
+		"fabric-datagen": [
+			"com.rickal.usts.USTrafficSignageDataGenerator"
+		],
+		"Client": [
+			"com.rickal.usts.USTrafficSignageClient"
+		]
+	},
+	"mixins": [
+		"usts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

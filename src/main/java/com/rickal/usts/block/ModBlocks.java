@@ -1,6 +1,7 @@
 package com.rickal.usts.block;
 
 import com.rickal.usts.USTrafficSignage;
+import com.rickal.usts.block.custom.Signpost;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -14,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block SIGNPOST = registerBlock("signpost",
-        new Block(AbstractBlock.Settings.create().solid().strength(4f).requiresTool().sounds(BlockSoundGroup.COPPER_GRATE).nonOpaque()));
+        new Signpost(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.COPPER_GRATE).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

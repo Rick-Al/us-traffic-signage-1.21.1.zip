@@ -13,10 +13,11 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup TRAFFIC_SIGNAGE = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(USTrafficSignage.MOD_ID, "traffic_signage"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BLANK_SIGN))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.STOP_SIGN))
                     .displayName(Text.translatable("itemgroup.usts.traffic_signage"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BLANK_SIGN);
+                        entries.add(ModItems.STOP_SIGN);
                         entries.add(ModBlocks.SIGNPOST);
 
                     }).build());

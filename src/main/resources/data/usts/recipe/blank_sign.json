@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "*": {
+      "item": "minecraft:iron_nugget"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "***",
+    "*i*",
+    "***"
+  ],
+  "result": {
+    "count": 4,
+    "id": "usts:blank_sign"
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item BLANK_SIGN = registerItem("blank_sign", new Item(new Item.Settings()));
+    public static final Item STOP_SIGN = registerItem("stop_sign", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(USTrafficSignage.MOD_ID, name), item);

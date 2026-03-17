@@ -2,6 +2,7 @@
   "itemgroup.usts.traffic_signage": "Traffic Signage",
 
   "item.usts.blank_sign": "Blank Sign",
+  "item.usts.stop_sign": "Stop Sign",
 
   "block.usts.signpost": "Signpost"
 }

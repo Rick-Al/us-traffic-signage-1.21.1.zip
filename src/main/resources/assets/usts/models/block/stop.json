@@ -3,19 +3,34 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "usts:item/signpost",
+		"1": "usts:item/octogonback",
+		"2": "usts:item/stop",
 		"particle": "usts:item/signpost"
 	},
 	"elements": [
 		{
+			"name": "Post",
 			"from": [6.5, 0, 6.5],
 			"to": [9.5, 16, 9.5],
 			"faces": {
-				"north": {"uv": [6, 0, 9, 16], "texture": "#0"},
+				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"east": {"uv": [6, 0, 9, 16], "texture": "#0"},
 				"south": {"uv": [6, 0, 9, 16], "texture": "#0"},
-				"west": {"uv": [6, 0, 9, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 3, 3], "texture": "#0"},
-				"down": {"uv": [0, 0, 3, 3], "texture": "#0"}
+				"west": {"uv": [6, 0, 9, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Sign",
+			"from": [0, 0, 6.45],
+			"to": [16, 16, 6.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [2, 0, 2, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 2, 16, 2], "texture": "#missing"}
 			}
 		}
 	],

@@ -1,6 +1,8 @@
 package com.rickal.usts;
 
 import com.rickal.usts.block.ModBlocks;
+import com.rickal.usts.block.entity.ModBlockEntities;
+import com.rickal.usts.block.entity.ModBlockEntities;
 import com.rickal.usts.item.ModItemGroups;
 import com.rickal.usts.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,5 +20,6 @@ public class USTrafficSignage implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 	}
 }

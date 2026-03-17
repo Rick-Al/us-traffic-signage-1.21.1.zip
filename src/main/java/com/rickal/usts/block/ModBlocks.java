@@ -14,6 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //adding the signpost
     public static final Block SIGNPOST = registerBlock("signpost",
         new Signpost(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.COPPER_GRATE).nonOpaque()));
 

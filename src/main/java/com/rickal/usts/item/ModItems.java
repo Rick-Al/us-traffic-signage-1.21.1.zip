@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    //mod items
     public static final Item BLANK_SIGN = registerItem("blank_sign", new Item(new Item.Settings()));
     public static final Item STOP_SIGN = registerItem("stop_sign", new Item(new Item.Settings()));
 

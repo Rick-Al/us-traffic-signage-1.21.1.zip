@@ -16,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.STOP_SIGN))
                     .displayName(Text.translatable("itemgroup.usts.traffic_signage"))
                     .entries((displayContext, entries) -> {
+                        //put mod items here
                         entries.add(ModItems.BLANK_SIGN);
                         entries.add(ModItems.STOP_SIGN);
                         entries.add(ModBlocks.SIGNPOST);

@@ -13,7 +13,7 @@ public class Signpost extends Block{
     public Signpost(Settings settings) {
         super(settings);
     }
-
+// making the signpost an actual post and not a full block
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
